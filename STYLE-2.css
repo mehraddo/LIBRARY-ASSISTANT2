@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./Vazir.woff2);
+}
+@media only screen and (max-width: 1138px) {
+
+    .container-card {
+        margin: auto;
+        font-size: larger;
+        display: block;
+        padding: 10px;
+        box-sizing: inherit;
+        height: 42rem;
+        width: 30rem;
+        display: table;
+        flex-wrap: wrap;
+        display: block;
+        margin-left: 30rem;
+        display: flexbox;
+        margin-top: 12rem;
+        break-after: auto|all|always|avoid|avoid-column|avoid-page|avoid-region|column|left|page|recto|region|right|verso|initial|inherit;
+
+  }
+}
+@media only screen and (max-width: 700px) {
+
+    .container-card {
+        margin: auto;
+        font-size: larger;
+        display: block;
+        padding: 10px;
+        box-sizing: inherit;
+        height: 42rem;
+        display: table;
+        flex-wrap: wrap;
+        display: block;
+        margin-left: 30rem;
+
+  }
+}
+body{
+    font-family: "vazir" ;
+    background-color: rgb(109, 161, 240);
+    direction: rtl;
+}
+.container-card{
+   box-sizing: inherit;
+    height: 34rem;
+    z-index: 2;
+    width: 35rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10rem;
+    margin-top: -1.5rem;
+    margin-left: 16rem;
+    margin-right: 18rem;
+    border-radius: 12rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+.name1{
+    text-align: right;
+}
+.register-imgtext{
+    display: flex;
+    width: 49rem;
+    height: 14rem;
+    margin: -9.5rem;
+    justify-content: space-between;
+    padding: 3.5rem;
+    flex-wrap: wrap;
+    max-width: 49rem;
+    justify-items: center;
+}
+.registerimg{
+    border-radius: 14rem;
+    margin-top: -3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    height: 13rem;
+    width: 19rem;
+
+}
+.formsabtnam{
+    margin: 4rem;
+    padding: 0rem;
+    padding-left: 3rem;
+    font-size: 37px;
+    padding-right: 7rem;
+}
+.name-lastname{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 3rem;
+    width: 37rem;
+    margin: -3rem;
+    padding: 6rem;
+}
+input{
+    height: 1rem;
+    width: 11rem;
+    padding: 1rem;
+    margin: -1rem;
+    border-radius: 3rem;
+    font-family: "vazir";
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    direction: rtl;
+    
+}
+.nemesetting{
+    padding-right: 0.5rem;
+    padding-left: 1.5rem;
+}
+.name1{
+    padding-right: 0.5rem;
+    padding-left: 1.5rem;
+}
+.placeholder{
+    font-family: "vazir"    ;
+}
+input:active{
+    background-color: rgb(109, 161, 240);
+    color: rgb(9, 75, 255);
+}
+.phones{
+    text-align: right;
+}
+.lastneme{
+        padding-right: 4rem;
+}
+.lastnamee{
+    padding-right: -1.5rem;
+    margin-right: 0rem; 
+}
+.phone-email{
+    display: flex
+;
+    justify-content: space-between;
+    height: 3rem;
+    width: 41rem;
+    margin: -3rem;
+    padding: 6rem;
+    padding-right: 3rem;
+    padding-top: 0rem;
+
+}
+.phones{
+    padding-right: 0.5rem;
+    padding-left: 1.5rem;
+    direction: rtl;
+}
+.emails{
+       padding-right: 0.5rem;
+        padding-left: 1.5rem;
+        margin-right: 4.5rem; 
+}
+input:hover{
+    border-color: rgb(49, 134, 245);
+}
+input:active{
+      border-color: rgb(49, 134, 245);
+}
+.textsecual{
+    padding-right: 2.5rem;
+
+}
+.checkbox{
+    width: 5rem;
+    height: 1.3rem;
+    padding: 0.2rem;
+    border-radius: 3rem;
+    margin: -1.5rem;
+    
+    
+}
+.secual{
+    padding-left: 2rem;
+}
+.secual-birthday{
+    display: flex;
+}
+.secual1{
+    padding-right: 1.3rem;
+    padding-left: 1.5rem;
+}
+.textsecualwomen{
+    padding-left: 0.5rem;
+}
+label{
+   padding-right: 1.5rem;
+    padding-left: 1.5rem; 
+    font-size: 17px;  
+}
+.selects{
+    width: 2rem;
+    height: 3rem;
+    display: flex;
+    margin: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-top: -4.5rem;
+    border-radius: 3rem;
+    border-top: none;
+}
+option{
+    border-radius: 2rem;
+}
+select{
+    padding: 0.5rem;
+    border-radius: 3rem;
+    border-top: none;
+    font-family: "vazir";
+}
+select:hover{
+    color: rgb(56, 126, 231);
+}
+.brithday{
+    padding-right: 2rem;
+}
+#rahertebati{
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 12rem;
+    padding-right: 2rem;
+}
+.btn{
+    margin-top: 3.5rem;
+    padding-right: 17rem;
+    height: 3.5rem;
+    height: 2rem;
+}
+.btnsabt{
+    height: 3.5rem;
+    border-radius: 16rem;
+    background-color: rgb(31, 115, 241);
+    color: azure;
+    font-size: 17px;
+}
+.btnsabt:hover{
+    animation: hover 2s timing-function delay iteration-count direction fill-mode;
+    animation: hover;
+    color: rgb(6, 58, 172);
+}
+/*login style*/
+.imglogin{
+    border-radius: 14rem;
+    margin-top: -3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    height: 13rem;
+    width: 19rem;
+}
+.imglogintext{
+    display: flex;
+    flex-wrap: wrap;
+    width: 49rem;
+    height: 14rem;
+    margin: -9.5rem;
+    justify-content: space-between;
+    padding: 3.5rem;
+
+}
+.textlogin{
+    margin-top: 4rem;
+    margin-right: 10rem;
+    font-size: 37px;
+     
+}
+.telpass{
+    margin-top: 7.5rem;
+    margin-right: 8rem;
+    display: block;
+    direction: rtl;
+    size: 3rem;
+}
+.inputtel{
+    direction: rtl;
+}
+.pass{
+    margin-top: 3.5rem;
+    margin-right: 9rem;
+    display: block;
+}
+label{
+    font-size: 16px;
+}
+/*endlogin style*/
+.repassword{
+    display: flex;
+    flex-wrap: wrap;
+    width: 49rem;
+    height: 14rem;
+    margin: -9.5rem;
+    justify-content: space-between;
+    padding: 3.5rem;
+}
+.imgrepass{
+    border-radius: 14rem;
+    margin-top: -3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    height: 13rem;
+    width: 19rem;
+}
+.textrepassword{
+    margin-top: 4rem;
+    margin-right: 10rem;
+    font-size: 37px;
+}
+.givtel{
+        margin-top: 7.5rem;
+    margin-right: 8rem;
+    display: block;
+    direction: rtl;
+    size: 3rem;
+}
+.givtelgivteltext{
+        direction: rtl;
+}
+.givusername{
+     margin-top: 3.5rem;
+    margin-right: 2rem;
+    display: block;
+}
