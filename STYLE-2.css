@@ -1,6 +1,7 @@
+<<<<<<< HEAD
 @font-face {
     font-family: "vazir";
-    src: url(./Vazir.woff2);
+    src url (./Vazir.woff2);
 }
 @media only screen and (max-width: 1138px) {
 
@@ -18,9 +19,8 @@
         margin-left: 30rem;
         display: flexbox;
         margin-top: 12rem;
-        break-after: auto|all|always|avoid|avoid-column|avoid-page|avoid-region|column|left|page|recto|region|right|verso|initial|inherit;
 
-  }
+}
 }
 @media only screen and (max-width: 700px) {
 
@@ -325,3 +325,10 @@ label{
     margin-right: 2rem;
     display: block;
 }
+=======
+*{
+    background-color: aqua;
+    color: azure;
+    border-radius: 300px;
+}
+>>>>>>> 5be7b51edb5fadc79d01309a9931ed0597c61e40
