@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@font-face {
-    font-family: "vazir";
-    src url (./Vazir.woff2);
-}
+/* resposive */
 @media only screen and (max-width: 1138px) {
 
     .container-card {
@@ -37,6 +33,7 @@
         margin-left: 30rem;
 
   }
+  /* body and container of thisproject */
 }
 body{
     font-family: "vazir" ;
@@ -57,6 +54,7 @@ body{
     padding-right: 2rem;
     margin: auto;
 }
+/* register style */
 .name1{
     text-align: right;
 }
@@ -288,6 +286,7 @@ label{
     font-size: 16px;
 }
 /*endlogin style*/
+/* password  style */
 .repassword{
     display: flex;
     flex-wrap: wrap;
@@ -325,10 +324,6 @@ label{
     margin-right: 2rem;
     display: block;
 }
-=======
-*{
-    background-color: aqua;
-    color: azure;
-    border-radius: 300px;
-}
->>>>>>> 5be7b51edb5fadc79d01309a9931ed0597c61e40
+/* password  style */
+
+
