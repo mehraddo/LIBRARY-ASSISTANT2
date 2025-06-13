@@ -1,329 +1,349 @@
-/* resposive */
-@media only screen and (max-width: 1138px) {
-
-    .container-card {
-        margin: auto;
-        font-size: larger;
-        display: block;
-        padding: 10px;
-        box-sizing: inherit;
-        height: 42rem;
-        width: 30rem;
-        display: table;
-        flex-wrap: wrap;
-        display: block;
-        margin-left: 30rem;
-        display: flexbox;
-        margin-top: 12rem;
-
-}
-}
-@media only screen and (max-width: 700px) {
-
-    .container-card {
-        margin: auto;
-        font-size: larger;
-        display: block;
-        padding: 10px;
-        box-sizing: inherit;
-        height: 42rem;
-        display: table;
-        flex-wrap: wrap;
-        display: block;
-        margin-left: 30rem;
-
-  }
-  /* body and container of thisproject */
-}
-body{
-    font-family: "vazir" ;
+/* General body styles */
+body {
+    font-family: "Vazir", sans-serif;
     background-color: rgb(109, 161, 240);
     direction: rtl;
 }
-.container-card{
-   box-sizing: inherit;
-    height: 34rem;
-    z-index: 2;
-    width: 35rem;
+
+/* Main form container */
+.form-container {
+    box-sizing: border-box;
+    width: 57rem;
+    height: 56rem;
     background-color: rgb(255, 255, 255);
-    padding: 10rem;
-    margin-top: -1.5rem;
-    margin-left: 16rem;
-    margin-right: 18rem;
-    border-radius: 12rem;
-    padding-right: 2rem;
+    padding: 2rem;
     margin: auto;
+    border-radius: 17rem;
 }
-/* register style */
-.name1{
-    text-align: right;
-}
-.register-imgtext{
+
+/* Header section with title and logo */
+.header-section {
     display: flex;
-    width: 49rem;
-    height: 14rem;
-    margin: -9.5rem;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 49rem;
     padding: 3.5rem;
     flex-wrap: wrap;
-    max-width: 49rem;
-    justify-items: center;
 }
-.registerimg{
+
+.form-title {
+    font-size: 37px;
+    margin: 4rem 7rem 4rem 3rem;
+}
+
+.header-logo {
     border-radius: 14rem;
-    margin-top: -3rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
     height: 13rem;
     width: 19rem;
+    margin-top: -3rem;
+    padding: 1rem 0 2rem;
+}
 
-}
-.formsabtnam{
-    margin: 4rem;
-    padding: 0rem;
-    padding-left: 3rem;
-    font-size: 37px;
-    padding-right: 7rem;
-}
-.name-lastname{
+/* Name and username section */
+.name-section {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    height: 3rem;
-    width: 37rem;
-    margin: -3rem;
-    padding: 6rem;
+    flex-wrap: wrap;
+    width: 45rem;
+    padding: 1rem 4rem 2rem;
+    margin-top: -4rem;
 }
-input{
+
+/* Input group for labels and inputs */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input-label {
+    font-size: 17px;
+    padding: 0 1.5rem;
+}
+
+/* General input styles */
+input {
     height: 1rem;
     width: 11rem;
     padding: 1rem;
-    margin: -1rem;
     border-radius: 3rem;
-    font-family: "vazir";
-    border-top: none;
-    border-right: none;
-    border-left: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: "Vazir", sans-serif;
     direction: rtl;
-    
 }
-.nemesetting{
-    padding-right: 0.5rem;
-    padding-left: 1.5rem;
+
+input:hover {
+    border-color: rgb(104, 151, 211);
 }
-.name1{
-    padding-right: 0.5rem;
-    padding-left: 1.5rem;
-}
-.placeholder{
-    font-family: "vazir"    ;
-}
-input:active{
+
+input:active {
     background-color: rgb(109, 161, 240);
-    color: rgb(9, 75, 255);
+    color: rgb(85, 119, 211);
+    border-color: rgb(105, 161, 235);
 }
-.phones{
-    text-align: right;
-}
-.lastneme{
-        padding-right: 4rem;
-}
-.lastnamee{
-    padding-right: -1.5rem;
-    margin-right: 0rem; 
-}
-.phone-email{
-    display: flex
-;
+
+/* Credentials section (phone and password) */
+.credentials-section {
+    display: flex;
     justify-content: space-between;
-    height: 3rem;
-    width: 41rem;
-    margin: -3rem;
-    padding: 6rem;
-    padding-right: 3rem;
-    padding-top: 0rem;
+    width: 49rem;
+    padding: 10.8px 11rem 1rem;
+    padding-right: 0rem;
+}
 
+/* Gender and birthday section */
+.personal-info-section
+ {
+    display: flex;
+    align-items: center;
+    width: 53rem;
+    padding: 3rem 1.3rem 0rem 1rem;
+    margin-top: -3.5rem;
 }
-.phones{
-    padding-right: 0.5rem;
-    padding-left: 1.5rem;
-    direction: rtl;
-}
-.emails{
-       padding-right: 0.5rem;
-        padding-left: 1.5rem;
-        margin-right: 4.5rem; 
-}
-input:hover{
-    border-color: rgb(49, 134, 245);
-}
-input:active{
-      border-color: rgb(49, 134, 245);
-}
-.textsecual{
-    padding-right: 2.5rem;
 
-}
-.checkbox{
-    width: 5rem;
-    height: 1.3rem;
-    padding: 0.2rem;
-    border-radius: 3rem;
-    margin: -1.5rem;
-    
-    
-}
-.secual{
+.gender-group {
+    display: flex;
+    align-items: center;
     padding-left: 2rem;
 }
-.secual-birthday{
+
+.gender-option {
+    padding: 0 1.5rem;
+}
+
+.gender-option input[type="radio"] {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0 0.2rem;
+}
+
+/* Birthday dropdowns */
+#input-textbirthday {
+    padding-top: 2.5rem;
+    padding-right: 8rem;
+}
+
+.birthday-group {
+    padding-right: 0;
     display: flex;
+    padding-bottom: 2.5rem;
 }
-.secual1{
-    padding-right: 1.3rem;
-    padding-left: 1.5rem;
-}
-.textsecualwomen{
-    padding-left: 0.5rem;
-}
-label{
-   padding-right: 1.5rem;
-    padding-left: 1.5rem; 
-    font-size: 17px;  
-}
-.selects{
-    width: 2rem;
-    height: 3rem;
+
+.select-group {
     display: flex;
-    margin: 3rem;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    margin-top: -4.5rem;
-    border-radius: 3rem;
-    border-top: none;
+    gap: 1rem;
+    margin: 2rem 0rem 0px;
 }
-option{
-    border-radius: 2rem;
-}
-select{
+
+select {
     padding: 0.5rem;
     border-radius: 3rem;
-    border-top: none;
-    font-family: "vazir";
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: "Vazir", sans-serif;
 }
-select:hover{
+
+select:hover {
     color: rgb(56, 126, 231);
 }
-.brithday{
-    padding-right: 2rem;
+
+option {
+    border-radius: 2rem;
 }
-#rahertebati{
-    width: 18rem;
+
+/* Referral source dropdown */
+.referral-section {
     display: flex;
     justify-content: center;
-    margin-right: 12rem;
-    padding-right: 2rem;
 }
-.btn{
-    margin-top: 3.5rem;
-    padding-right: 17rem;
-    height: 3.5rem;
-    height: 2rem;
+
+#referral-source {
+    width: 18rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: "Vazir", sans-serif;
 }
-.btnsabt{
+
+/* Button section */
+.button-section {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.submit-button, .reset-button {
     height: 3.5rem;
     border-radius: 16rem;
     background-color: rgb(31, 115, 241);
     color: azure;
     font-size: 17px;
+    font-family: "Vazir", sans-serif;
+    border: none;
+    cursor: pointer;
+    width: 10rem;
+    padding-right: 1.5rem;
 }
-.btnsabt:hover{
-    animation: hover 2s timing-function delay iteration-count direction fill-mode;
-    animation: hover;
+
+.submit-button:hover,
+.reset-button:hover {
     color: rgb(6, 58, 172);
+    transition: color 0.3s ease;
 }
-/*login style*/
-.imglogin{
-    border-radius: 14rem;
-    margin-top: -3rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    height: 13rem;
-    width: 19rem;
-}
-.imglogintext{
-    display: flex;
-    flex-wrap: wrap;
-    width: 49rem;
-    height: 14rem;
-    margin: -9.5rem;
-    justify-content: space-between;
-    padding: 3.5rem;
 
+/* Phone, password, and username sections */
+.phone-section {
+    margin-top: -2.5rem;
+    padding-right: 22%;
+    margin-bottom: 2rem;
 }
-.textlogin{
-    margin-top: 4rem;
-    margin-right: 10rem;
-    font-size: 37px;
-     
-}
-.telpass{
-    margin-top: 7.5rem;
-    margin-right: 8rem;
-    display: block;
-    direction: rtl;
-    size: 3rem;
-}
-.inputtel{
-    direction: rtl;
-}
-.pass{
-    margin-top: 3.5rem;
-    margin-right: 9rem;
-    display: block;
-}
-label{
-    font-size: 16px;
-}
-/*endlogin style*/
-/* password  style */
-.repassword{
-    display: flex;
-    flex-wrap: wrap;
-    width: 49rem;
-    height: 14rem;
-    margin: -9.5rem;
-    justify-content: space-between;
-    padding: 3.5rem;
-}
-.imgrepass{
-    border-radius: 14rem;
-    margin-top: -3rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    height: 13rem;
-    width: 19rem;
-}
-.textrepassword{
-    margin-top: 4rem;
-    margin-right: 10rem;
-    font-size: 37px;
-}
-.givtel{
-        margin-top: 7.5rem;
-    margin-right: 8rem;
-    display: block;
-    direction: rtl;
-    size: 3rem;
-}
-.givtelgivteltext{
-        direction: rtl;
-}
-.givusername{
-     margin-top: 3.5rem;
-    margin-right: 2rem;
-    display: block;
-}
-/* password  style */
 
+.password-section {
+    margin-top: -0.5rem;
+    padding-right: 24%;
+    margin-bottom: 2rem;
+}
 
+.username-section {
+    margin-top: -0.5rem;
+    padding-right: 10%;
+    margin-bottom: 2rem;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Adjust main container for smaller screens */
+    .form-container {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+        margin: 1rem auto;
+        border-radius: 2rem;
+    }
+
+    /* Stack header section vertically */
+    .header-section {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form-title {
+        margin: 1rem 0;
+        font-size: 24px;
+    }
+
+    .header-logo {
+        margin-top: 0;
+        padding: 0.5rem 0;
+        height: 8rem;
+        width: 12rem;
+    }
+
+    /* Stack name section vertically */
+    .name-section {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Stack credentials section vertically */
+    .credentials-section {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust phone, password, and username sections */
+    .phone-section {
+        margin: 1rem 0;
+        padding-right: 0;
+        font-size: 1.5rem;
+    }
+
+    .password-section {
+        margin: 1rem 0;
+        padding-right: 0;
+    }
+
+    .username-section {
+        margin: 1rem 0;
+        padding-right: 0;
+    }
+
+    /* Adjust input fields */
+    input, .phone-input, .password-input, .username-input {
+        width: 90%;
+        margin: 0.5rem 0;
+    }
+
+    /* Stack gender and birthday section vertically */
+    .personal-info-section {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .gender-group {
+        padding-left: 0;
+        margin-bottom: 1rem;
+        margin-top: 2.5rem 40px;
+    }
+
+    .birthday-group {
+        padding-right: 0;
+        flex-direction: column;
+    }
+
+    #input-textbirthday {
+        padding-right: 0;
+        padding-top: 1rem;
+    }
+
+    .select-group {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    select {
+        width: 90%;
+        margin: 0.5rem 0;
+    }
+
+    /* Adjust referral section */
+    .referral-section {
+        width: 100%;
+    }
+
+    #referral-source {
+        width: 90%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+    }
+
+    /* Adjust button section */
+    .button-section {
+        margin: 1rem 0;
+        padding-right: 0;
+        height: auto;
+    }
+
+    .submit-button, .reset-button {
+        width: 90%;
+        padding-right: 0;
+    }
+}
